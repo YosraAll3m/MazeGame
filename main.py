@@ -12,7 +12,7 @@ wn.setup(1300,700)
 class Maze(turtle.Turtle):
     def __init__(self):
         turtle.Turtle.__init__(self)
-        self.shape("square")
+        self.shape("circle")
         self.color("white")
         self.penup()
         self.speed(0)
@@ -20,7 +20,7 @@ class Maze(turtle.Turtle):
 class purple(turtle.Turtle):
     def __init__(self):
         turtle.Turtle.__init__(self)
-        self.shape("square")
+        self.shape("circle")
         self.color("purple")
         self.penup()
         self.speed(0)
@@ -28,7 +28,7 @@ class purple(turtle.Turtle):
 class Blue(turtle.Turtle):
     def __init__(self):
         turtle.Turtle.__init__(self)
-        self.shape("square")
+        self.shape("circle")
         self.color("blue")
         self.penup()
         self.speed(0)
@@ -37,7 +37,7 @@ class Blue(turtle.Turtle):
 class Pink(turtle.Turtle):
     def __init__(self):
         turtle.Turtle.__init__(self)
-        self.shape("square")
+        self.shape("circle")
         self.color("pink")
         self.penup()
         self.speed(0)
@@ -45,7 +45,7 @@ class Pink(turtle.Turtle):
 class Yellow(turtle.Turtle):
     def __init__(self):
         turtle.Turtle.__init__(self)
-        self.shape("square")
+        self.shape("circle")
         self.color("yellow")
         self.penup()
         self.speed(0)
